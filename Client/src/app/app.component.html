@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <h1>
+    Angular + SignalR Demo
+  </h1>
+  <input type="text" [(ngModel)]="message" />
+  <button (click)="sendMessage(message)">Send</button>
+  <ul>
+    <li *ngFor="let message of messages">{{message}}</li>
+  </ul>
+</div>

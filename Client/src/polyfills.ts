@@ -70,3 +70,9 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
  * Need to import at least one locale-data with intl.
  */
 // import 'intl/locale-data/jsonp/en';
+
+
+// import jQuery from 'jquery/dist/jquery.min.js';
+// import 'jquery/dist/jquery.js';
+// don't import signlar here
+// import 'signalr/jquery.signalR.js';
